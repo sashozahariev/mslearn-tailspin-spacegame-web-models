@@ -2,10 +2,10 @@ trigger:
 - '*'
 
 pool:
-  name: 'SasAgentPool'
+  name: 'MyAgentPool'
   demands:
   - npm
-#testis
+
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
